@@ -1,0 +1,120 @@
+.main__prices-title {
+	font-weight: 700;
+	font-size: 49px;
+	margin-bottom: 42px;
+}
+
+.main__prices-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.main__prices-item {
+	padding: 0;
+	margin: 0;
+	width: 250px;
+	max-width: 250px;
+	margin-right: 35px;
+	margin-bottom: 45px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.main__prices-tarif {
+	height: 153px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	border-radius: 3px;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+
+.main__prices-tarif--one {
+	background-image: url('../../img/content/prices_one.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--one {
+	background-image: url('../../img/content/prices_one_hover.jpg');
+}
+
+.main__prices-tarif--three {
+	background-image: url('../../img/content/prices_three.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--three {
+	background-image: url('../../img/content/prices_three_hover.jpg');
+}
+
+.main__prices-tarif--ten {
+	background-image: url('../../img/content/prices_ten.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--ten {
+	background-image: url('../../img/content/prices_ten_hover.jpg');
+}
+
+.main__prices-tarif--unlim {
+	background-image: url('../../img/content/prices_unlim.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--unlim {
+	background-image: url('../../img/content/prices_unlim_hover.jpg');
+}
+
+.main__prices-tarif--all {
+	background-image: url('../../img/content/prices_all.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--all {
+	background-image: url('../../img/content/prices_all_hover.jpg');
+}
+
+.main__prices-tarif--conf {
+	background-image: url('../../img/content/prices_conf.jpg');
+}
+
+.main__prices-item:hover .main__prices-tarif--conf {
+	background-image: url('../../img/content/prices_conf_hover.jpg');
+}
+
+.main__prices-type {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 24px;
+	color: #5dd1f8;
+	position: absolute;
+	top: 66px;
+	left: 72px;
+	text-align: center;
+	display: inline-block;
+}
+
+.main__prices-vip {
+	color: #ec1e79;
+}
+
+.main__prices-type--vip {
+	top: 30px;
+	left: 10px;
+}
+
+.main__prices-type--conf {
+	left: 20px;
+}
+
+.main__prices-sum {
+	max-width: 250px;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 18px;
+}
+
+.main__prices-desc {
+	font-size: 14px;
+	max-width: 250px;
+	text-align: center;
+	vertical-align: middle;
+}

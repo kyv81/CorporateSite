@@ -1,0 +1,124 @@
+.main__about {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.main__about-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 49px;
+  color: #ffffff;
+  position: absolute;
+  top: 102px;
+  left: 66px;
+}
+
+.main__desc {
+  width: 700px;
+}
+
+.main__desc-title {
+  font-weight: 700;
+}
+
+.main__desc-item {
+  color: #ec1e79;
+  margin-bottom: 18px;
+  padding-left: 14px;
+}
+
+.main__desc-span {
+  color: #221f1f;
+}
+
+.main__desc-text {
+  margin-bottom: 20px;
+}
+
+.main__add {
+  background: #27273e;
+  color: #ffffff;
+  padding: 20px;
+  width: 700px;
+  margin-bottom: 67px;
+}
+
+.main__add-pink {
+  font-weight: 700;
+  color: #ec1e79;
+}
+
+.main__partners {
+  width: 700px;
+}
+
+.main__partners-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 49px;
+  margin-bottom: 47px;
+}
+
+.main__partners-list {
+  list-style: none;
+}
+
+.main__partners-item {
+  vertical-align: middle;
+  display: inline-table;
+  text-align: center;
+  width: 216px;
+  margin-bottom: 42px;
+}
+
+.main__partners-link {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.main__partners-pic {
+  width: 165px;
+  height: 68px;
+  background-repeat: no-repeat;
+}
+
+.main__partners-pic--winter {
+  background-image: url('../../img/content/logo_winter.png');
+}
+
+.main__partners-pic--drop {
+  background-image: url('../../img/content/logo_drop.png');
+}
+
+.main__partners-pic--anna {
+  background-image: url('../../img/content/logo_anna.png');
+}
+
+.main__partners-pic--tishkin {
+  background-image: url('../../img/content/logo_tishkin.png');
+}
+
+.main__partners-pic--pufok {
+  background-image: url('../../img/content/logo_pufok.png');
+}
+
+.main__partners-pic--avantazh {
+  background-image: url('../../img/content/logo_avantazh.png');
+}
+
+.main__partners-pic {
+  filter: grayscale(100%);
+}
+
+.main__partners-pic:hover {
+  filter: grayscale(0%);
+}
+
+
+
+
+
+
+
+
+

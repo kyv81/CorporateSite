@@ -1,0 +1,48 @@
+.header {
+  background: #27273e;
+  padding: 10px 0;
+}
+
+.logo {
+  max-width: 100%;
+  display: inline-block;
+  }
+
+.header__left, .header__right {
+  float: left;
+  width: 50%;
+}
+
+.logo__link {
+  display: inline-block;
+}
+
+.header__right {
+  text-align: right;
+}
+
+.header__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 700;
+  text-decoration: none;
+  display: block;
+}
+
+.header__contacts {
+  display: inline-block;
+  padding-top: 11px;
+  padding-bottom: 7px;
+}
+
+.header__schedule {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ec1e79;
+  opacity: .7;
+  display: block;
+}
+
+.header__schedule:hover {
+	color: #5dd1f8;
+}
