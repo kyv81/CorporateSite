@@ -1,7 +1,7 @@
 .sidebar {
   float: left;
   width: 180px;
-  padding-top: 45px;
+  padding-top: 46px;
   padding-right: 10px;
 }
 
@@ -17,11 +17,16 @@
   font-size: 12px;
   padding: 0;
   margin: 0;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
+}
+
+.nav__item:last-child {
+  margin-bottom: 0;
 }
 
 .nav__link {
   text-decoration: none;
+  display: inline-block;
 }
 
 .nav__link--active .nav__icon-main--black {
@@ -63,7 +68,10 @@
   background-position: 50% 50%;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 16px;
+  margin-right: 15px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }
 
 .nav__icon-main {
@@ -82,6 +90,9 @@
   color: #ec1e79;
   display: inline-block;
   vertical-align: middle;
-  max-width: 130px;
+  max-width: 120px;
   padding-top: 3px;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
 }

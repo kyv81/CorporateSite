@@ -2,3 +2,42 @@
 	float: left;
 	width: 880px;
 }
+
+.main__padding--top {
+	padding-top: 40px;
+}
+
+.main__nav-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.main__nav-item {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main__nav-item:after {
+	content: "/";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main__nav-link {
+	font-size: 14px;
+	color: #ec1e79;
+	font-style: italic;
+}
+
+.main__nav-item--active .main__nav-link {
+	text-decoration: none;
+	color: #221f1f;
+}
+
+.main__nav-item--active:after {
+	display: none;
+}

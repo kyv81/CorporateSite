@@ -1,14 +1,14 @@
 .header {
   background: #27273e;
-  padding: 10px 0;
 }
 
 .logo {
   max-width: 100%;
   display: inline-block;
-  }
+}
 
 .header__left, .header__right {
+  padding-top: 12px;
   float: left;
   width: 50%;
 }
@@ -21,6 +21,10 @@
   text-align: right;
 }
 
+.header__contacts {
+  display: inline-block;
+}
+
 .header__phone {
   color: #ffffff;
   font-size: 21px;
@@ -29,10 +33,12 @@
   display: block;
 }
 
-.header__contacts {
-  display: inline-block;
-  padding-top: 11px;
-  padding-bottom: 7px;
+.header__contacts-elem {
+  position: relative;
+}
+
+.header__contacts-elem:hover .header__contacts-drop {
+  display: block;
 }
 
 .header__schedule {
@@ -45,4 +51,51 @@
 
 .header__schedule:hover {
 	color: #5dd1f8;
+}
+
+.header__contacts-drop {
+  padding: 10px 15px;
+  box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+  background-color: #fff;
+  border-radius: 5px 0 5px 5px;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1000;
+  margin-top: 13px;
+  display: none;
+}
+
+.header__contacts-drop:before {
+  content: "";
+  display: block;
+  border: 11px solid transparent;
+  border-top-width: 0;
+  border-bottom-color: #fff;
+  position: absolute;
+  top: -11px;
+  right: 0;
+}
+
+.header__contacts-drop:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 25px;
+  left: 0;
+  right: 0;
+  top: -25px;
+}
+
+.header__contacts-time {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ec1e79;
+  margin-bottom: 10px;
+}
+
+.header__contacts-lunch {
+  font-size: 14px;
+  color: #221f1f;
 }

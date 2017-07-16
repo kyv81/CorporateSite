@@ -1,60 +1,78 @@
 .footer {
-  background: #27273e;
-  color: #ffffff;
-  font-size: 14px;
   height: 77px;
+  background-color: #27273e;
+  color: #fff;
   margin-top: -77px;
   min-width: 1100px;
-  padding-bottom: 13px;
 }
 
-.footer__left, .footer__center, .footer__right {
+.footer .container {
+  height: 77px;
+}
+
+.footer__col {
   float: left;
   width: 33.3%;
+  height: 100%;
 }
 
-.footer__center {
-  text-align: center;
+.footer__col:first-child {
+  padding-top: 11px;
 }
 
-.footer__right {
-  text-align: right;
-  vertical-align: top;
+.footer__about {
+  font-size: 14px;
 }
 
 .footer__desc {
-  padding-top: 14px;
+  max-width: 300px;
 }
 
 .footer__desc-link {
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.logo {
-  padding-top: 14px;
-}
-
-.footer__author {
+  color: #fff;
   font-weight: 700;
 }
 
-.footer__socials {
-  padding-top: 10px;
+.footer__user {
+  font-weight: 700;
+}
+
+.footer__col--middle {
+  position: relative;
+}
+
+.footer__col--middle .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer__col--right {
+  text-align: right;
+  padding-top: 16px;
 }
 
 .footer__title {
   font-weight: 700;
   font-size: 14px;
+  margin-bottom: 5px;
 }
 
 .footer__list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__item {
   display: inline-block;
   margin-right: 10px;
+  text-align: left;
+}
+
+.footer__link {
+  display: block;
 }
 
 .footer__icon {
@@ -107,3 +125,8 @@
 .footer__icon--mail:hover {
   background-image: url('../../img/icons/socials_mail_pink.png');
 }
+
+
+
+
+

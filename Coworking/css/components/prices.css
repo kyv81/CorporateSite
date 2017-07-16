@@ -1,13 +1,14 @@
 .main__prices-title {
 	font-weight: 700;
 	font-size: 49px;
-	margin-bottom: 42px;
+	margin-bottom: 35px;
 }
 
 .main__prices-list {
 	padding: 0;
 	margin: 0;
 	list-style: none;
+	margin-left: -59px;
 }
 
 .main__prices-item {
@@ -15,21 +16,26 @@
 	margin: 0;
 	width: 250px;
 	max-width: 250px;
-	margin-right: 35px;
-	margin-bottom: 45px;
+	margin-left: 59px;
+	margin-bottom: 67px;
 	display: inline-block;
 	vertical-align: top;
+	text-align: center;
+}
+
+.main__prices-pic {
 	position: relative;
+	margin-bottom: 20px;
 }
 
 .main__prices-tarif {
-	height: 153px;
+	height: 155px;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 	background-size: cover;
-	border-radius: 3px;
+	width: 100%;
+	border-radius: 5px;
 	overflow: hidden;
-	margin-bottom: 25px;
 }
 
 .main__prices-tarif--one {
@@ -86,8 +92,11 @@
 	font-size: 24px;
 	color: #5dd1f8;
 	position: absolute;
-	top: 66px;
-	left: 72px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 0 25px;
 	text-align: center;
 	display: inline-block;
 }
@@ -96,25 +105,12 @@
 	color: #ec1e79;
 }
 
-.main__prices-type--vip {
-	top: 30px;
-	left: 10px;
-}
-
-.main__prices-type--conf {
-	left: 20px;
-}
-
 .main__prices-sum {
-	max-width: 250px;
-	text-align: center;
 	font-weight: 700;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
 .main__prices-desc {
 	font-size: 14px;
-	max-width: 250px;
-	text-align: center;
 	vertical-align: middle;
 }

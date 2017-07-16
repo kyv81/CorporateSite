@@ -11,6 +11,10 @@
 @import "components/footer.css";
 
 /* pages */
+@import "components/intro.css";
 @import "components/about.css";
 @import "components/comments.css";
 @import "components/prices.css";
+
+/* animations */
+@import "components/animation.css";
