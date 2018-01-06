@@ -1,17 +1,17 @@
 # CorporateWebsite (Coworking)
 16.07.17
-* Fixed errors in css
-* Added index.html with some animation
+* Исправлены ошибки в css
+* Добавлена анимация в index.html
 
 09.07.17
-* Added prices.html
-* Divided css 
+* Добавлена страница prices.html 
 
 02.07.17
-* Added main.css 
-* Added about.html 
-* Added comments.html 
+* Добавлены: main.css, about.html, comments.html 
 
 26.06.17
-* Uploaded fonts 
-* Uploaded images
+* Добавлены шрифты fonts 
+* Добавлены картинки
+
+17.06.17
+* Добавлена главная страница index.html
